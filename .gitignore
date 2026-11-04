@@ -1,0 +1,16 @@
+# Environnement virtuel et secrets (ne jamais versionner)
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Suivi d'expériences (ateliers suivants)
+mlruns/
+mlflow.db
+
+# Système
+.DS_Store
